@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Saad\\Documents\\GitHub\\TataruBot\\TestBot\\TestBot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Saad\\Documents\\GitHub\\TataruBot\\TestBot\\TestBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Saad\\Documents\\GitHub\\TataruBot\\TestBot\\TestBot.csproj",
+        "projectName": "TestBot",
+        "projectPath": "C:\\Users\\Saad\\Documents\\GitHub\\TataruBot\\TestBot\\TestBot.csproj",
+        "packagesPath": "C:\\Users\\Saad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Saad\\Documents\\GitHub\\TataruBot\\TestBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Saad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

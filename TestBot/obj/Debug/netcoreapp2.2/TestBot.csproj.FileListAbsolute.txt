@@ -1,0 +1,11 @@
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\bin\Debug\netcoreapp2.2\TestBot.deps.json
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\bin\Debug\netcoreapp2.2\TestBot.runtimeconfig.json
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\bin\Debug\netcoreapp2.2\TestBot.runtimeconfig.dev.json
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\bin\Debug\netcoreapp2.2\TestBot.dll
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\bin\Debug\netcoreapp2.2\TestBot.pdb
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\obj\Debug\netcoreapp2.2\TestBot.csprojAssemblyReference.cache
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\obj\Debug\netcoreapp2.2\TestBot.csproj.CoreCompileInputs.cache
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\obj\Debug\netcoreapp2.2\TestBot.AssemblyInfoInputs.cache
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\obj\Debug\netcoreapp2.2\TestBot.AssemblyInfo.cs
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\obj\Debug\netcoreapp2.2\TestBot.dll
+C:\Users\Saad\Documents\GitHub\TataruBot\TestBot\obj\Debug\netcoreapp2.2\TestBot.pdb

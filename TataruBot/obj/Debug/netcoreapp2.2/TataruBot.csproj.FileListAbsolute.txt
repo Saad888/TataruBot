@@ -1,0 +1,11 @@
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Debug\netcoreapp2.2\TataruBot.csprojAssemblyReference.cache
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Debug\netcoreapp2.2\TataruBot.csproj.CoreCompileInputs.cache
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Debug\netcoreapp2.2\TataruBot.AssemblyInfoInputs.cache
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Debug\netcoreapp2.2\TataruBot.AssemblyInfo.cs
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Debug\netcoreapp2.2\TataruBot.deps.json
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Debug\netcoreapp2.2\TataruBot.runtimeconfig.json
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Debug\netcoreapp2.2\TataruBot.runtimeconfig.dev.json
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Debug\netcoreapp2.2\TataruBot.dll
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Debug\netcoreapp2.2\TataruBot.pdb
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Debug\netcoreapp2.2\TataruBot.dll
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Debug\netcoreapp2.2\TataruBot.pdb
