@@ -1,0 +1,14 @@
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Release\netcoreapp2.2\win10-x64\hostpolicy.dll
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Release\netcoreapp2.2\win10-x64\hostfxr.dll
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Release\netcoreapp2.2\win10-x64\TataruBot.exe
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Release\netcoreapp2.2\win10-x64\TataruBot.deps.json
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Release\netcoreapp2.2\win10-x64\TataruBot.runtimeconfig.json
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Release\netcoreapp2.2\win10-x64\TataruBot.runtimeconfig.dev.json
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Release\netcoreapp2.2\win10-x64\TataruBot.dll
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\bin\Release\netcoreapp2.2\win10-x64\TataruBot.pdb
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Release\netcoreapp2.2\win10-x64\TataruBot.csprojAssemblyReference.cache
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Release\netcoreapp2.2\win10-x64\TataruBot.csproj.CoreCompileInputs.cache
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Release\netcoreapp2.2\win10-x64\TataruBot.AssemblyInfoInputs.cache
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Release\netcoreapp2.2\win10-x64\TataruBot.AssemblyInfo.cs
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Release\netcoreapp2.2\win10-x64\TataruBot.dll
+C:\Users\Saad\Documents\GitHub\TataruBot\TataruBot\obj\Release\netcoreapp2.2\win10-x64\TataruBot.pdb
