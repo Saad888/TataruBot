@@ -10,7 +10,6 @@ using Newtonsoft.Json;
 
 
 // To Do:
-// Create channel purge when voice channels empty
 
 
 
@@ -132,6 +131,40 @@ namespace TataruBot {
                 string param = command.Replace("change server", "").Trim();
                 await RelocateServer(guild, msg, param);
             }
+
+
+            // The following commands can only be done within permitted bot spam channel:
+            if (!configs.PermittedBotSpam.Contains(msg.Channel.Id)) {
+                return;
+            }
+            // Database grab from fight resources
+            foreach (string fight_name in configs.FightList) {
+                // If fight is not mentioned, continue
+                if (!command.Contains(fight_name)) {
+                    continue;
+                }
+                string[] columns = new string[] {"fight", "url"};
+                var param = new Dictionary<string, string>();
+                param.Add("fight", fight_name);
+
+                // Checks for resource types
+                foreach (string resource in configs.ResourceList) {
+                    if (!command.Contains(resource)) {
+                        continue;
+                    }
+                    param.Add("resource_type", resource);
+
+                    // If resource found, call and print
+                    var results = await GetFightResource(columns, param);
+                    foreach(string line in results) {
+                        if (line != "") {
+                            await msg.Channel.SendMessageAsync(line);
+                        }
+                    }
+
+                }
+
+            }
         }
         
         private async Task ProcessTextCommands(SocketUserMessage msg) {
@@ -154,7 +187,43 @@ namespace TataruBot {
                 PrintLog(result[0]["Test"]);
             }
 
-            // Database grab from resources
+            
+        }
+
+        private async Task<List<string>> GetFightResource(string[] cols, Dictionary<string, string> param) {
+            // Gets the results from the database and formats them into a series of strings
+            // To be sent to the server, max char length of 1800
+            int max_length = 1800;
+
+            try {
+                var db_results = await dbmanager.get_data("resources", cols, param);
+                string message = "";
+
+                var output = new List<string>();
+                output.Add($"**{TitleCaseString(param["resource_type"])} for {param["fight"]}:**");
+
+                foreach (var row_data in db_results) {
+                    string addition = row_data["url"] + "\n";
+
+                    // Ensure message isnt past character length
+                    if (addition.Length + message.Length > max_length){
+                        output.Add(message);
+                        message = "";
+                    }
+
+                    message += addition;
+                }
+                output.Add(message);
+                return output;
+
+            } catch(Exception e) {
+                Console.WriteLine(e.ToString());
+                return new List<String>() {"Error Occured while getting resource"};
+            }
+        }
+
+        private string TitleCaseString(string text) {
+            return char.ToUpper(text[0]) + text.Substring(1);
         }
 
         private SocketGuild GetGuildFromChannel(SocketUserMessage msg) {

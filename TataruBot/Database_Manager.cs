@@ -13,10 +13,8 @@ namespace TataruBot {
         } 
 
         private async Task open_connection() {
-            Console.WriteLine("Open Connection");
             try {await SQLClient.OpenAsync();} 
             catch(Exception e) {Console.WriteLine(e.ToString());}
-            Console.WriteLine("Opened Connection");
         }
 
         private void close_connection() {
@@ -75,14 +73,14 @@ namespace TataruBot {
 
             // Add conditionals 
             List<string> keys = new List<string>(param.Keys);
-            command += $"{keys[0]} = '{param[keys[0]]}'";
+            command += $"{keys[0]} = \"{param[keys[0]]}\"";
             for (int i = 1; i < keys.Count; i++) {
-                command += $" AND {keys[i]} = '{param[keys[i]]}";
+                command += $" AND {keys[i]} = \"{param[keys[i]]}\"";
             } 
 
             // Send command and await result
             return await send_command(command, columns);
-
+ 
         }
     }
 }

@@ -5299,29 +5299,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Saad\\.nuget\\packages\\": {},
+    "C:\\Users\\staimoor\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Saad\\Documents\\GitHub\\TataruBot\\TataruBot\\TataruBot.csproj",
+      "projectUniqueName": "c:\\Users\\staimoor\\Documents\\Git Projects\\TataruBot\\TataruBot\\TataruBot.csproj",
       "projectName": "TataruBot",
-      "projectPath": "C:\\Users\\Saad\\Documents\\GitHub\\TataruBot\\TataruBot\\TataruBot.csproj",
-      "packagesPath": "C:\\Users\\Saad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Saad\\Documents\\GitHub\\TataruBot\\TataruBot\\obj\\",
+      "projectPath": "c:\\Users\\staimoor\\Documents\\Git Projects\\TataruBot\\TataruBot\\TataruBot.csproj",
+      "packagesPath": "C:\\Users\\staimoor\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\staimoor\\Documents\\Git Projects\\TataruBot\\TataruBot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Saad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\staimoor\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
