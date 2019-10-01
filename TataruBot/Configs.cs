@@ -10,6 +10,7 @@ namespace TataruBot
         public Dictionary<ulong, ulong> VoiceChannelRoleIDs {get; set;}
         public Dictionary<ulong, ulong> VoiceTextChannelIDs {get; set;}
         public Dictionary<string, string> SQLClientData {get; set;}
+        public List<string> FightList {get; set;}
 
         // Properties associating roles with reactions:
         public ulong RoleMessageId {get; set;}
@@ -19,6 +20,7 @@ namespace TataruBot
             VoiceChannelRoleIDs = new Dictionary<ulong, ulong>();
             VoiceTextChannelIDs = new Dictionary<ulong, ulong>();
             ReactionRolePairIds = new Dictionary<string, ulong>();
+            FightList = new List<string>();
             SQLClientData = new Dictionary<string, string>();
         }
     }

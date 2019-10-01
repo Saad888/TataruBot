@@ -41,10 +41,7 @@ namespace TataruBot {
                                             configs.SQLClientData["pwd"], 
                                             configs.SQLClientData["server"], 
                                             configs.SQLClientData["database"]);
-            Console.WriteLine("Doing Test");
-            await dbmanager.test_connection();
-            Console.WriteLine("Done Test");
-            Console.ReadLine();
+
             // Create Discord Socket client with message cache
             var _configs = new DiscordSocketConfig { 
                 MessageCacheSize = 100, ExclusiveBulkDelete = true 
@@ -145,6 +142,19 @@ namespace TataruBot {
                 await msg.Channel.SendMessageAsync("Test Response");
 
             }
+
+            // Database test grab
+            if (command.StartsWith("grab-test")) {
+                string table = "test_table";
+                string[] columns = new string[]{"ID", "Test"};
+                var param = new Dictionary<string, string>();
+                param.Add("ID", "1");
+                var result = await dbmanager.get_data(table, columns, param);
+                PrintLog(result[0]["ID"]);
+                PrintLog(result[0]["Test"]);
+            }
+
+            // Database grab from resources
         }
 
         private SocketGuild GetGuildFromChannel(SocketUserMessage msg) {

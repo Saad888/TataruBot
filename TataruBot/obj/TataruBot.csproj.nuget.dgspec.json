@@ -49,6 +49,10 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.2, )"
